@@ -1,0 +1,20 @@
+proxies:
+  - {name: AMS(nWS2), server: 104.17.3.81, port: 443, type: vmess, uuid: 4f93b2bb-3e8e-4e78-a1d0-45b7019d7246, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sgm1ray.serverssh.net, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: sgm1ray.serverssh.net}}}
+  
+  - {name: Jagoan4-JAGOANSSH, server: 104.17.2.81, port: 443, type: vmess, uuid: e87327c9-da93-485d-ac48-05150d0ab114, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg4.vmes.xyz, network: ws, ws-opts: {path: /JAGOANSSH/, headers: {Host: sg4.vmes.xyz}}}
+  
+  - {name: Ctbglobal-globalssh_vmess_ws_tls, server: 104.20.75.141, port: 443, type: vmess, uuid: fe1e0b86-e772-4038-b76f-8fe2f94ab53f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vmess-ctb-sg01.globalssh.xyz, network: ws, ws-opts: {path: /vmess-ws-Ctbglobal-globalssh, headers: {Host: vmess-ctb-sg01.globalssh.xyz}}}
+  
+  - {name: ovhglobal-globalssh_vmess_ws_tls, server: 104.20.74.141, port: 443, type: vmess, uuid: b3d8e47a-dcfd-48df-8f52-83606c490f11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vmess-ovh-sg01.globalssh.xyz, network: ws, ws-opts: {path: /vmess-ws-ovhglobal-globalssh, headers: {Host: vmess-ovh-sg01.globalssh.xyz}}}
+  
+  - {name: Bnglobal-globalssh_vmess_ws_tls, server: 104.18.38.174, port: 443, type: vmess, uuid: 5c58a40c-0077-4104-b37f-1e5a24ab47a5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vmess-bn-id01.globalssh.xyz, network: ws, ws-opts: {path: /vmess-ws-Bnglobal-globalssh, headers: {Host: vmess-bn-id01.globalssh.xyz}}}
+  
+  - {name: howdysg6, server: 104.26.5.10, port: 443, type: trojan, password: 2ff019e0-3a1b-11ed-bd85-1239d0255272, skip-cert-verify: false, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}}
+  
+  - {name: sg1serverssh-serverssh.net, server: 104.26.5.10, port: 443, type: vmess, uuid: e19f84cc-3c3a-4acc-b803-27a65057d9af, sni: sg1ray.serverssh.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: sg1ray.serverssh.net}}}
+  
+  - {name: sg3serverssh-serverssh.net, server: 104.20.74.141, port: 443, type: vmess, uuid: 3bd0072c-00ae-4dcf-a32c-33943e120dff, sni: sg3ray.serverssh.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: sg3ray.serverssh.net}}}
+  
+  - {name: biznet banten, server: 104.17.2.81, port: 443, type: trojan, password: 544216c0-3c3e-11ed-a369-1239d0255272, skip-cert-verify: false, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}}
+  
+  - {name: HerzaIDT, server: 104.17.3.81, port: 443, type: trojan, password: 4fda8300-3c3f-11ed-9812-1239d0255272, skip-cert-verify: false, sni: idtj-herza.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}}
