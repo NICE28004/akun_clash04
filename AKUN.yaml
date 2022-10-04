@@ -6,3 +6,5 @@ proxies:
   - {name: biznet banten, server: 104.17.2.81, port: 443, type: trojan, password: 544216c0-3c3e-11ed-a369-1239d0255272, skip-cert-verify: false, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}}
   
   - {name: HerzaIDT, server: 104.17.3.81, port: 443, type: trojan, password: 4fda8300-3c3f-11ed-9812-1239d0255272, skip-cert-verify: false, sni: idtj-herza.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}}
+  
+  - {name: 104.17.2.81, server: 104.17.2.81, port: 443, type: trojan, password: 679e7780-43bd-11ed-afe9-1239d0255272, skip-cert-verify: false, sni: trojan1.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: trojan1.udpgw.com}}}
