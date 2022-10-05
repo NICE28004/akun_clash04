@@ -1,8 +1,8 @@
 proxies:
-  - {name: ðŸ‡¸ðŸ‡¬ SG UDPGW Trojan, server: 104.17.2.81, port: 443, type: trojan, password: 4e297bb0-446a-11ed-9c3b-1239d0255272, skip-cert-verify: false, sni: sg8-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg8-trojan.bonds.id}}}
+  - {name: 🇸🇬SG UDPGW Trojan, server: 104.17.2.81, port: 443, type: trojan, password: 4e297bb0-446a-11ed-9c3b-1239d0255272, skip-cert-verify: false, sni: sg8-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg8-trojan.bonds.id}}}
   
-  - {name: ðŸ‡¸ðŸ‡¬ SG-HE 2 Trojan, server: 104.17.2.81, port: 443, type: trojan, password: 394ca150-446b-11ed-aad3-1239d0255272, skip-cert-verify: false, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}}
+  - {name: 🇸🇬SG-HE 2 Trojan, server: 104.17.2.81, port: 443, type: trojan, password: 394ca150-446b-11ed-aad3-1239d0255272, skip-cert-verify: false, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}}
   
-  - {name: ðŸ‡¸ðŸ‡¬ SG-HE 3 Trojan, server: 104.17.2.81, port: 443, type: trojan, password: c22be670-446b-11ed-bedd-1239d0255272, skip-cert-verify: false, sni: sg3-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg3-trojan.bonds.id}}}
+  - {name: 🇸🇬SG-HE 3 Trojan, server: 104.17.2.81, port: 443, type: trojan, password: c22be670-446b-11ed-bedd-1239d0255272, skip-cert-verify: false, sni: sg3-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg3-trojan.bonds.id}}}
   
-  - {name: ðŸ‡¸ðŸ‡¬ SG-HE MUX Trojan, server: 104.17.2.81, port: 443, type: trojan, password: 26a382c0-446c-11ed-96f1-1239d0255272, skip-cert-verify: false, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}}
+  - {name: 🇸🇬SG-HE MUX Trojan, server: 104.17.2.81, port: 443, type: trojan, password: 26a382c0-446c-11ed-96f1-1239d0255272, skip-cert-verify: false, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}}
