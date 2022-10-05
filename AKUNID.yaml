@@ -1,2 +1,4 @@
 proxies:
   - {name: ID-Biznet Banten Trojan, server: 104.17.2.81, port: 443, type: trojan, password: 8f8ace50-447b-11ed-bf08-1239d0255272, skip-cert-verify: false, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}}
+  
+  - {name: ID-IKD Trojan VPN, server: 104.17.2.81, port: 443, type: trojan, password: 9c6ce1e0-4481-11ed-ab35-1239d0255272, skip-cert-verify: false, sni: idtj-ikd.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}}
