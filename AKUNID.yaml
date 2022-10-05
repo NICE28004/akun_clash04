@@ -1,10 +1,2 @@
 proxies:
-  - {name: AMS(nWS2), server: 104.17.3.81, port: 443, type: vmess, uuid: 4f93b2bb-3e8e-4e78-a1d0-45b7019d7246, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sgm1ray.serverssh.net, network: ws, ws-opts: {path: /serverssh.net, headers: {Host: sgm1ray.serverssh.net}}}
-  
-  - {name: howdysg6, server: 104.26.5.10, port: 443, type: trojan, password: 2ff019e0-3a1b-11ed-bd85-1239d0255272, skip-cert-verify: false, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}}
-  
-  - {name: biznet banten, server: 104.17.2.81, port: 443, type: trojan, password: 544216c0-3c3e-11ed-a369-1239d0255272, skip-cert-verify: false, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}}
-  
-  - {name: HerzaIDT, server: 104.17.3.81, port: 443, type: trojan, password: 4fda8300-3c3f-11ed-9812-1239d0255272, skip-cert-verify: false, sni: idtj-herza.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-herza.bonds.id}}}
-  
-  - {name: 104.17.2.81, server: 104.17.2.81, port: 443, type: trojan, password: 679e7780-43bd-11ed-afe9-1239d0255272, skip-cert-verify: false, sni: trojan1.udpgw.com, network: ws, ws-opts: {path: /howdy, headers: {Host: trojan1.udpgw.com}}}
+  - {name: ID-Biznet Banten Trojan, server: 104.17.2.81, port: 443, type: trojan, password: 8f8ace50-447b-11ed-bf08-1239d0255272, skip-cert-verify: false, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}}
