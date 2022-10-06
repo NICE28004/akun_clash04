@@ -71,16 +71,16 @@ hosts:
   'cacerts.digicert.com': 141.193.213.20
 tproxy-port: 9898
 proxy-groups:
-- name: CLASH
+- name: ❄CLASH❄
   type: select
   proxies:
-  - ID
-  - SG
-  - BEST-PING 
-  - LOAD-BALANCE
-  - ADS
+  - ❄ID❄
+  - ❄SG❄
+  - ❄BEST-PING❄ 
+  - ❄LOAD-BALANCE❄
+  - ❄ADS❄
   
-- name: ID
+- name: ❄ID❄
   type: url-test
   url: http://hi.bonds.id/ping
   interval: 300
@@ -88,7 +88,7 @@ proxy-groups:
   use:
   - AKUNID
 
-- name: SG
+- name: ❄SG❄
   type: url-test
   url: http://hi.bonds.id/ping
   interval: 300
@@ -96,26 +96,26 @@ proxy-groups:
   use:
   - AKUNSG
   
-- name: BEST-PING 
+- name: ❄BEST-PING❄ 
   type: url-test
   url: http://hi.bonds.id/ping
   interval: 300
   tolerance: 80
   proxies:
-  - ID
-  - SG
+  - ❄ID❄
+  - ❄SG❄
   
-- name: LOAD-BALANCE 
+- name: ❄LOAD-BALANCE❄ 
   type: load-balance
   url: http://hi.bonds.id/ping
   interval: 300
   strategy: consistent-hashing
   disable-udp: false
   proxies:
-  - ID
-  - SG
+  - ❄ID❄
+  - ❄SG❄
 
-- name: ADS
+- name: ❄ADS❄
   type: select
   proxies:
   - REJECT
@@ -317,34 +317,34 @@ rule-providers:
     interval: 86400
 
 rules:
-- RULE-SET,rule_reject,ADS
-- RULE-SET,rule_porn,ADS
-- RULE-SET,rule_nsfw,ADS
-- RULE-SET,rule_streaming,SG
-- RULE-SET,rule_disneyplus,ID
-- RULE-SET,rule_hbo,SG
-- RULE-SET,rule_iqiyi,SG
-- RULE-SET,rule_netflix,ID
-- RULE-SET,rule_primevideo,SG
-- RULE-SET,rule_twitch,SG
-- RULE-SET,rule_youtube,SG
-- RULE-SET,rule_sosmed,ID
-- RULE-SET,rule_line,ID
-- RULE-SET,rule_metaverse,ID
-- RULE-SET,rule_tiktok,ID
-- RULE-SET,rule_twitter,ID
-- RULE-SET,rule_telegram,ID
-- RULE-SET,rule_telegramcidr,ID
-- RULE-SET,rule_indo,ID
-- RULE-SET,rule_videoconferences,SG
-- RULE-SET,rule_playstore,CLASH
+- RULE-SET,rule_reject,❄ADS❄
+- RULE-SET,rule_porn,❄ADS❄
+- RULE-SET,rule_nsfw,❄ADS❄
+- RULE-SET,rule_streaming,❄SG❄
+- RULE-SET,rule_disneyplus,❄ID❄
+- RULE-SET,rule_hbo,❄SG❄
+- RULE-SET,rule_iqiyi,❄SG❄
+- RULE-SET,rule_netflix,❄ID❄
+- RULE-SET,rule_primevideo,❄SG❄
+- RULE-SET,rule_twitch,❄SG❄
+- RULE-SET,rule_youtube,❄SG❄
+- RULE-SET,rule_sosmed,❄ID❄
+- RULE-SET,rule_line,❄ID❄
+- RULE-SET,rule_metaverse,❄ID❄
+- RULE-SET,rule_tiktok,❄ID❄
+- RULE-SET,rule_twitter,❄ID❄
+- RULE-SET,rule_telegram,❄ID❄
+- RULE-SET,rule_telegramcidr,❄ID❄
+- RULE-SET,rule_indo,❄ID❄
+- RULE-SET,rule_videoconferences,❄SG❄
+- RULE-SET,rule_playstore,❄CLASH❄
 - RULE-SET,rule_gaming,DIRECT
 - RULE-SET,rule_discord,DIRECT
 - RULE-SET,rule_games,DIRECT
 - RULE-SET,rule_portgames,DIRECT
-- RULE-SET,Basic-ADS,ADS,no-resolve
-- RULE-SET,Personal-ADS,ADS,no-resolve
-- RULE-SET,ADS,ADS,no-resolve
-- GEOSITE,category-ads-all,ADS
+- RULE-SET,Basic-ADS,❄ADS❄,no-resolve
+- RULE-SET,Personal-ADS,❄ADS❄,no-resolve
+- RULE-SET,ADS,❄ADS❄,no-resolve
+- GEOSITE,category-ads-all,❄ADS❄
 #- DST-PORT,21-23/53/123/143/194/443/465/587/853/993/995/998/2052/2053/2082/2083/2086/2095/2096/5222/5228/5229/5230/8080/8443/8880/8888-8889,DIRECT,udp
-- MATCH,CLASH
+- MATCH,❄CLASH❄
