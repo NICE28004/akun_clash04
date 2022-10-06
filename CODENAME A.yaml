@@ -317,9 +317,9 @@ rule-providers:
     interval: 86400
 
 rules:
-- RULE-SET,rule_reject,ads
-- RULE-SET,rule_porn,ads
-- RULE-SET,rule_nsfw,ads
+- RULE-SET,rule_reject,ADS
+- RULE-SET,rule_porn,ADS
+- RULE-SET,rule_nsfw,ADS
 - RULE-SET,rule_streaming,SG
 - RULE-SET,rule_disneyplus,ID
 - RULE-SET,rule_hbo,SG
