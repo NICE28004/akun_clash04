@@ -101,9 +101,9 @@ proxy-groups:
   url: http://hi.bonds.id/ping
   interval: 300
   tolerance: 80
-  proxies:
-  - ❄ID❄
-  - ❄SG❄
+  use:
+  - AKUNID
+  - AKUNSG
   
 - name: ❄LOAD-BALANCE❄ 
   type: load-balance
@@ -111,9 +111,9 @@ proxy-groups:
   interval: 300
   strategy: consistent-hashing
   disable-udp: false
-  proxies:
-  - ❄ID❄
-  - ❄SG❄
+  use:
+  - AKUNID
+  - AKUNSG
 
 - name: ❄ADS❄
   type: select
