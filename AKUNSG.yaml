@@ -224,7 +224,7 @@ proxies:
       headers:
         Host: sg3ray.serverssh.net
     udp: true
-    - name: SG-HE
+  - name: SG-HE
     server: sg3-trojan.bonds.id
     port: 443
     type: trojan
@@ -471,3 +471,4 @@ proxies:
       headers:
         Host: sg3-trojan.bonds.id
     udp: true
+    
