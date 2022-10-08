@@ -1,5 +1,161 @@
 proxies:
-  - {name: 🇮🇩ID-Biznet Banten Trojan, server: 172.67.198.162, port: 443, type: trojan, password: 8f8ace50-447b-11ed-bf08-1239d0255272, skip-cert-verify: false, sni: id5-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: id5-trojan.bonds.id}}}
-  - {name: 🇮🇩sshocean_Trojan_gRPC, server: id1grpc.sshocean.net, port: 443, type: trojan, password: 8f61b8c9-e280-4b1b-8be5-06eb2baf34f7, skip-cert-verify: false, sni: 172.67.198.162, network: grpc, grpc-opts: {grpc-service-name: grpc}}
-  - {name: 🇮🇩ID-IKD Trojan VPN, server: 172.67.198.162, port: 443, type: trojan, password: 9c6ce1e0-4481-11ed-ab35-1239d0255272, skip-cert-verify: false, sni: idtj-ikd.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: idtj-ikd.bonds.id}}}
-  - {name: 🇮🇩whyvpn-xl1265, server: 172.67.198.162, port: 443, type: vmess, uuid: f1843c12-a5c1-45bf-86ee-921309ff0082, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: do1.kitu.xyz, network: grpc, grpc-opts: {grpc-service-name: v2ray-vmess-grpc}}
+  - name: whyvpn
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 2
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 3
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 4
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 5
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 6
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 7
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 8
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 9
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 10
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 11
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 12
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 13
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 14
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 15
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 16
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 17
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 18
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 19
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
+  - name: whyvpn 20
+    server: idch1.kitu.xyz
+    port: 443
+    type: trojan
+    password: whyvpn-sjjsjsjs
+    skip-cert-verify: true
+    sni: 104.18.10.39
+    udp: true
