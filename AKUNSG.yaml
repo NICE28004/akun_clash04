@@ -1,10 +1,226 @@
 proxies:
-  - {name: 🇸🇬SG UDPGW Trojan, server: 172.67.198.162, port: 443, type: trojan, password: 4e297bb0-446a-11ed-9c3b-1239d0255272, skip-cert-verify: false, sni: sg8-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg8-trojan.bonds.id}}}
-  
-  - {name: 🇸🇬SG-HE 2 Trojan, server: 172.67.198.162, port: 443, type: trojan, password: 394ca150-446b-11ed-aad3-1239d0255272, skip-cert-verify: false, sni: sg2-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg2-trojan.bonds.id}}}
-  
-  - {name: 🇸🇬SG-HE 3 Trojan, server: 172.67.198.162, port: 443, type: trojan, password: c22be670-446b-11ed-bedd-1239d0255272, skip-cert-verify: false, sni: sg3-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg3-trojan.bonds.id}}}
-  
-  - {name: 🇸🇬SG-HE MUX Trojan, server: 172.67.198.162, port: 443, type: trojan, password: 26a382c0-446c-11ed-96f1-1239d0255272, skip-cert-verify: false, sni: sg6-trojan.bonds.id, network: ws, ws-opts: {path: /howdy, headers: {Host: sg6-trojan.bonds.id}}}
-  
-  - {name: 🇸🇬whyvpn-sss1, server: 172.67.198.162, port: 443, type: trojan, password: whyvpn-sss1, skip-cert-verify: false, sni: do1.kitu.xyz, network: ws, ws-opts: {path: /trojan-go, headers: {Host: do1.kitu.xyz}}}
+  - name: njhffff-serverssh.net
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 2
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 3
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 4
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 5
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 6
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 7
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 8
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 9
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 10
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 11
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 12
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 13
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 14
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
+  - name: njhffff-serverssh.net 15
+    server: sg3ray.serverssh.net
+    port: 443
+    type: vless
+    uuid: fa804b40-5da0-4fb0-b3ab-2bdc66cde4d7
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ov.gandring.my.id
+    network: ws
+    ws-opts:
+      path: /serverssh
+      headers:
+        Host: sg3ray.serverssh.net
+    udp: true
