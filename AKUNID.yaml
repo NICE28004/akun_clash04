@@ -1,161 +1,313 @@
 proxies:
-  - name: whyvpn
-    server: idch1.kitu.xyz
+  - name: BIZNET B
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 2
-    server: idch1.kitu.xyz
+  - name: BIZNET B 2
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 3
-    server: idch1.kitu.xyz
+  - name: BIZNET B 3
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 4
-    server: idch1.kitu.xyz
+  - name: BIZNET B 4
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 5
-    server: idch1.kitu.xyz
+  - name: BIZNET B 5
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 6
-    server: idch1.kitu.xyz
+  - name: BIZNET B 6
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 7
-    server: idch1.kitu.xyz
+  - name: BIZNET B 7
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 8
-    server: idch1.kitu.xyz
+  - name: BIZNET B 8
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 9
-    server: idch1.kitu.xyz
+  - name: BIZNET B 9
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 10
-    server: idch1.kitu.xyz
+  - name: BIZNET B 10
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 11
-    server: idch1.kitu.xyz
+  - name: BIZNET B 11
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 12
-    server: idch1.kitu.xyz
+  - name: BIZNET B 12
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 13
-    server: idch1.kitu.xyz
+  - name: BIZNET B 13
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 14
-    server: idch1.kitu.xyz
+  - name: BIZNET B 14
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 15
-    server: idch1.kitu.xyz
+  - name: BIZNET B 15
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 16
-    server: idch1.kitu.xyz
+  - name: BIZNET B 16
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 17
-    server: idch1.kitu.xyz
+  - name: BIZNET B 17
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 18
-    server: idch1.kitu.xyz
+  - name: BIZNET B 18
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 19
-    server: idch1.kitu.xyz
+  - name: BIZNET B 19
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
-  - name: whyvpn 20
-    server: idch1.kitu.xyz
+  - name: BIZNET B 20
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: whyvpn-sjjsjsjs
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.10.39
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
+    udp: true
+  - name: BIZNET B 21
+    server: id5-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
+    skip-cert-verify: true
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
+    udp: true
+  - name: BIZNET B 22
+    server: id5-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
+    skip-cert-verify: true
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
+    udp: true
+  - name: BIZNET B 23
+    server: id5-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
+    skip-cert-verify: true
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
+    udp: true
+  - name: BIZNET B 24
+    server: id5-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 3c6a9730-4736-11ed-abb9-1239d0255272
+    skip-cert-verify: true
+    sni: 172.67.198.162
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: id5-trojan.bonds.id
     udp: true
