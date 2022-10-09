@@ -5,23 +5,10 @@ proxies:
     type: trojan
     password: e14359d0-46fc-11ed-b6b7-1239d0255272
     skip-cert-verify: true
-    sni: 104.18.20.226
+    sni: 104.17.2.81
     network: ws
     ws-opts:
       path: /howdy
       headers:
         Host: sg3-trojan.bonds.id
-    udp: true
-  - name: whyvpn-do1
-    server: do1.kitu.xyz
-    port: 443
-    type: trojan
-    password: whyvpn-do1
-    skip-cert-verify: true
-    sni: do1.kitu.xyz
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: 172.67.198.162
     udp: true
