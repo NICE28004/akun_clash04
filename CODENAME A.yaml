@@ -183,12 +183,6 @@ rule-providers:
     path: "./rule_provider/rule_gaming.yaml"
     url: https://cdn.jsdelivr.net/gh/malikshi/open_clash@main/rule_provider/rule_gaming.yaml
     interval: 86400
-  rule_discord:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/discord.yaml
-    path: "./rule_provider/rule_discord.yaml"
-    interval: 86400
   Basic-ADS:
     type: http
     behavior: domain
@@ -200,12 +194,6 @@ rule-providers:
     behavior: classical
     path: "./rule_provider/personalads.yaml"
     url: 'https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml'
-    interval: 86300
-  ADS:
-    type: http
-    behavior: classical
-    path: "./rule_provider/ADS.yaml"
-    url: 'https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt'
     interval: 86300
   rule_reject:
     type: http
@@ -249,66 +237,6 @@ rule-providers:
     url: https://rules.kr328.app/category-games.yaml
     path: "./rule_provider/rule_games.yaml"
     interval: 86400
-  rule_hbo:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/hbo.yaml
-    path: "./rule_provider/rule_hbo.yaml"
-    interval: 86400
-  rule_iqiyi:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/iqiyi.yaml
-    path: "./rule_provider/rule_iqiyi.yaml"
-    interval: 86400
-  rule_line:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/line.yaml
-    path: "./rule_provider/rule_line.yaml"
-    interval: 86400
-  rule_metaverse:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/facebook.yaml
-    path: "./rule_provider/rule_metaverse.yaml"
-    interval: 86400
-  rule_netflix:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/netflix.yaml
-    path: "./rule_provider/rule_netflix.yaml"
-    interval: 86400
-  rule_primevideo:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/primevideo.yaml
-    path: "./rule_provider/rule_primevideo.yaml"
-    interval: 86400
-  rule_playstore:
-    type: http
-    behavior: domain
-    url: https://cdn.jsdelivr.net/gh/malikshi/open_clash@main/rule_provider/rule_playstore.yaml
-    path: "./rule_provider/rule_playstore.yaml"
-    interval: 86400
-  rule_tiktok:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/tiktok.yaml
-    path: "./rule_provider/rule_tiktok.yaml"
-    interval: 86400
-  rule_twitch:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/twitch.yaml
-    path: "./rule_provider/rule_twitch.yaml"
-    interval: 86400
-  rule_twitter:
-    type: http
-    behavior: domain
-    url: https://rules.kr328.app/twitter.yaml
-    path: "./rule_provider/rule_twitter.yaml"
-    interval: 86400
   rule_youtube:
     type: http
     behavior: domain
@@ -320,31 +248,20 @@ rules:
 - RULE-SET,rule_reject,❄ADS❄
 - RULE-SET,rule_porn,❄ADS❄
 - RULE-SET,rule_nsfw,❄ADS❄
-- RULE-SET,rule_streaming,SG
-- RULE-SET,rule_disneyplus,ID
-- RULE-SET,rule_hbo,SG
-- RULE-SET,rule_iqiyi,SG
-- RULE-SET,rule_netflix,ID
-- RULE-SET,rule_primevideo,SG
-- RULE-SET,rule_twitch,SG
-- RULE-SET,rule_youtube,SG
-- RULE-SET,rule_sosmed,ID
-- RULE-SET,rule_line,ID
-- RULE-SET,rule_metaverse,ID
-- RULE-SET,rule_tiktok,ID
-- RULE-SET,rule_twitter,ID
-- RULE-SET,rule_telegram,ID
-- RULE-SET,rule_telegramcidr,ID
-- RULE-SET,rule_indo,ID
-- RULE-SET,rule_videoconferences,SG
-- RULE-SET,rule_playstore,❄CLASH❄
+- RULE-SET,rule_streaming,❄SINGAPURA❄
+- RULE-SET,rule_disneyplus,❄INDONESIA❄
+- RULE-SET,rule_youtube,❄SINGAPURA❄
+- RULE-SET,rule_sosmed,❄INDONESIA❄
+- RULE-SET,rule_tiktok,❄INDONESIA❄
+- RULE-SET,rule_telegram,❄INDONESIA❄
+- RULE-SET,rule_telegramcidr,❄INDONESIA❄
+- RULE-SET,rule_indo,❄INDONESIA❄
+- RULE-SET,rule_videoconferences,❄SINGAPURA❄
 - RULE-SET,rule_gaming,DIRECT
-- RULE-SET,rule_discord,DIRECT
 - RULE-SET,rule_games,DIRECT
 - RULE-SET,rule_portgames,DIRECT
 - RULE-SET,Basic-ADS,❄ADS❄,no-resolve
 - RULE-SET,Personal-ADS,❄ADS❄,no-resolve
-- RULE-SET,ADS,❄ADS❄,no-resolve
 - GEOSITE,category-ads-all,❄ADS❄
 - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
 - IP-CIDR6,::1/128,REJECT,no-resolve
