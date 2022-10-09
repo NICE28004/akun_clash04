@@ -74,27 +74,27 @@ proxy-groups:
 - name: ❄CLASH❄
   type: select
   proxies:
-  - ❄ID❄
-  - ❄SG❄
+  - ❄INDONESIA❄
+  - ❄SINGAPURA❄
   - ❄BEST-PING❄ 
   - ❄LOAD-BALANCE❄
   - ❄ADS❄
   
-- name: ❄ID❄
+- name: ❄INDONESIA❄
   type: url-test
   url: http://hi.bonds.id/ping
   interval: 300
   tolerance: 100
   use:
-  - AKUNID
+  - ID
 
-- name: ❄SG❄
+- name: ❄SINGAPURA❄
   type: url-test
   url: http://hi.bonds.id/ping
   interval: 300
   tolerance: 100
   use:
-  - AKUNSG
+  - SG
   
 - name: ❄BEST-PING❄ 
   type: url-test
@@ -102,8 +102,8 @@ proxy-groups:
   interval: 300
   tolerance: 80
   proxies:
-  - ❄ID❄
-  - ❄SG❄
+  - ❄INDONESIA❄
+  - ❄SINGAPURA❄
   
 - name: ❄LOAD-BALANCE❄ 
   type: load-balance
@@ -112,8 +112,8 @@ proxy-groups:
   strategy: consistent-hashing
   disable-udp: false
   proxies:
-  - ❄ID❄
-  - ❄SG❄
+  - ❄INDONESIA❄
+  - ❄SINGAPURA❄
 
 - name: ❄ADS❄
   type: select
@@ -122,7 +122,7 @@ proxy-groups:
   - DIRECT
       
 proxy-providers:
-  AKUNID:
+  ID:
     type: http
     behavior: classical
     path: ./AKUNID.yaml
@@ -134,7 +134,7 @@ proxy-providers:
       lazy: true
       url: 'http://www.gstatic.com/generate_204'
       
-  AKUNSG:
+  SG:
     type: http
     behavior: classical
     path: ./AKUNSG.yaml
@@ -346,5 +346,7 @@ rules:
 - RULE-SET,Personal-ADS,❄ADS❄,no-resolve
 - RULE-SET,ADS,❄ADS❄,no-resolve
 - GEOSITE,category-ads-all,❄ADS❄
+- IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+- IP-CIDR6,::1/128,REJECT,no-resolve
 #- DST-PORT,21-23/53/123/143/194/443/465/587/853/993/995/998/2052/2053/2082/2083/2086/2095/2096/5222/5228/5229/5230/8080/8443/8880/8888-8889,DIRECT,udp
 - MATCH,❄CLASH❄
