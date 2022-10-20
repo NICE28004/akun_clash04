@@ -207,8 +207,8 @@ proxy-groups:
   strategy: round-robin
   disable-udp: false
   proxies:
-  - ID
-  - SG
+  - INDONESIA
+  - SINGAPURA
   
 - name: ADS
   type: select
