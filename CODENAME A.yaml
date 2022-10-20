@@ -2,7 +2,6 @@ port: 7890
 socks-port: 7891
 redir-port: 7892
 mixed-port: 7893
-tproxy-port: 7895
 ipv6: false
 mode: rule
 log-level: silent
@@ -11,49 +10,211 @@ external-controller: 0.0.0.0:9090
 secret: ""
 bind-address: "*"
 unified-delay: true
-profile:
-  store-selected: true
-  store-fake-ip: true
+experimental:
+  ignore-resolve-fail: true
 dns:
   enable: true
-  ipv6: false
-  use-host: true
+  ipv6: true
   enhanced-mode: fake-ip
   listen: 0.0.0.0:7874
-  nameserver:
-    - 8.8.8.8
-    - 1.0.0.1
-    - https://dns.google/dns-query
-  fallback:
-    - 1.1.1.1
-    - 8.8.4.4
-    - https://cloudflare-dns.com/dns-query
-    - 112.215.203.254
-  default-nameserver:
-    - 8.8.8.8
-    - 1.1.1.1
-    - 112.215.203.254
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter: ['networktest.twilio.com', '+.twilio.com']
+  fake-ip-filter:
+  - "*.lan"
+  - "*.localdomain"
+  - "*.example"
+  - "*.invalid"
+  - "*.localhost"
+  - "*.test"
+  - "*.local"
+  - "*.home.arpa"
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - "*.time.edu.cn"
+  - "*.ntp.org.cn"
+  - "+.pool.ntp.org"
+  - time1.cloud.tencent.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - "+.msftconnecttest.com"
+  - "+.msftncsi.com"
+  - msftconnecttest.com
+  - msftncsi.com
+  - localhost.ptlogin2.qq.com
+  - localhost.sec.qq.com
+  - "+.srv.nintendo.net"
+  - "*.n.n.srv.nintendo.net"
+  - "+.stun.playstation.net"
+  - xbox.*.*.microsoft.com
+  - "*.*.xboxlive.com"
+  - xbox.*.microsoft.com
+  - xnotify.xboxlive.com
+  - "+.battlenet.com.cn"
+  - "+.wotgame.cn"
+  - "+.wggames.cn"
+  - "+.wowsgame.cn"
+  - "+.wargaming.net"
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - "+.stun.*.*"
+  - "+.stun.*.*.*"
+  - "+.stun.*.*.*.*"
+  - "+.stun.*.*.*.*.*"
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "*.router.asus.com"
+  - mesu.apple.com
+  - swscan.apple.com
+  - swquery.apple.com
+  - swdownload.apple.com
+  - swcdn.apple.com
+  - swdist.apple.com
+  - lens.l.google.com
+  - stun.l.google.com
+  - "+.nflxvideo.net"
+  - "*.square-enix.com"
+  - "*.finalfantasyxiv.com"
+  - "*.ffxiv.com"
+  - "*.ff14.sdo.com"
+  - ff.dorado.sdo.com
+  - "*.mcdn.bilivideo.cn"
+  - "+.media.dssott.com"
+  - time-ios.apple.com
+  - shark007.net
+  fallback-filter:
+    geoip: true
+    geoip-code: ID
+    ipcidr:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.100.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+    - 255.255.255.255/32
+    domain:
+    - "+.google.com"
+    - "+.facebook.com"
+    - "+.youtube.com"
+    - "+.githubusercontent.com"
+    - "+.googlevideo.com"
+    - "+.msftconnecttest.com"
+    - "+.msftncsi.com"
+    - msftconnecttest.com
+    - msftncsi.com
+    - "+.*"
+  default-nameserver:
+  - 8.8.8.8
+  - 8.8.4.4
+  - 1.1.1.1
+  - 1.0.0.1
+  - 9.9.9.9
+  - 149.112.112.112
+  - 208.67.222.222
+  - 208.67.220.220
+  - 185.228.168.9
+  - 185.228.169.168
+  - 76.76.2.0
+  - 76.76.10.0
+  - 94.140.14.140
+  - 94.140.14.141
+  - 172.105.216.54
+  nameserver:
+  - https://dns.quad9.net/dns-query
+  - tls://tls://dns.quad9.net:853
+  fallback:
+  - https://dns.quad9.net/dns-query
+  - tls://tls://dns.quad9.net:853
+profile:
+  store-selected: true
+  store-fakeip: true
+  store-fake-ip: true
+
 proxy-groups:
-  - name: CLASH
-    type: select
-    proxies:
-      - ID
-      - SG
-      -ADS
-  - name: ID
-    type: url-test
-    use:
-     - AKUNID
-  - name: SG
-    type: url-test
-    use:
-     - AKUNSG
-  - name: ADS
-    type: select
-    proxies
-      - REJECT
+- name: CLASH
+  type: select
+  proxies:
+  - INDONESIA
+  - SINGAPURA
+  - LOAD BALANCE
+  - ADS
+  
+- name: INDONESIA
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  disable-udp: false
+  interval: 360
+  use:
+  - AKUNID
+
+- name: SINGAPURA
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+  disable-udp: false
+  interval: 360
+  use:
+  - AKUNSG
+  
+- name: LOAD BALANCE
+  type: load-balance
+  strategy: round-robin
+  disable-udp: false
+  proxies:
+  - ID
+  - SG
+  
+- name: ADS
+  type: select
+  proxies:
+  - REJECT
+  - DIRECT
       
 proxy-providers:
   AKUNID:
@@ -64,7 +225,7 @@ proxy-providers:
     interval: 3500
     health-check:
       enable: true
-      interval: 300
+      interval: 180
       lazy: true
       url: 'http://www.gstatic.com/generate_204'
       
@@ -76,9 +237,142 @@ proxy-providers:
     interval: 3600
     health-check:
       enable: true
-      interval: 300
+      interval: 180
       lazy: true
       url: 'http://www.gstatic.com/generate_204'
       
+rule-providers: 
+  rule_portgames:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_portgames.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_portgames.yaml
+    interval: 86400
+  rule_videoconferences:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_videoconferences.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_videoconferences.yaml
+    interval: 86400
+  rule_indo:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_Indo.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_indo.yaml
+    interval: 86400
+  rule_sosmed:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_sosmed.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_sosmed.yaml
+    interval: 86400
+  rule_streaming:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_streaming.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_streaming.yaml
+    interval: 86400
+  rule_gaming:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_gaming.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_gaming.yaml
+    interval: 86400
+  Basic-ADS:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
+    path: "./rule_provider/basicads.yaml"
+    interval: 86300
+  Personal-ADS:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
+    path: "./rule_provider/personalads.yaml"
+    interval: 86300
+  rule_telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegramcidr.yaml
+    path: "./rule_provider/rule_telegramcidr.yaml"
+    interval: 86400
+  rule_telegram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegram.yaml
+    path: "./rule_provider/rule_telegram.yaml"
+    interval: 86400
+  rule_disneyplus:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_disneyplus.yaml
+    path: "./rule_provider/rule_disneyplus.yaml"
+    interval: 86400
+  rule_games:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_games.yaml
+    path: "./rule_provider/rule_games.yaml"
+    interval: 86400
+  rule_playstore:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_playstore.yaml
+    path: "./rule_provider/rule_playstore.yaml"
+    interval: 86400
+  rule_tiktok:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_tiktok.yaml
+    path: "./rule_provider/rule_tiktok.yaml"
+    interval: 86400
+  rule_youtube:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_youtube.yaml
+    path: "./rule_provider/rule_Youtube.yaml"
+    interval: 86400
+  rule_direct:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_direct.yaml
+    path: "./rule_provider/rule_direct.yaml"
+    interval: 86400
+  rule_privacy:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_privacy.yaml
+    path: "./rule_provider/rule_privacy.yaml"
+    interval: 86400
+
 rules:
-  - MATCH,CLASH
+- RULE-SET,rule_streaming,SINGAPURA
+- RULE-SET,rule_disneyplus,INDONESIA
+- RULE-SET,rule_youtube,SINGAPURA
+- RULE-SET,rule_sosmed,INDONESIA
+- RULE-SET,rule_tiktok,INDONESIA
+- RULE-SET,rule_telegram,INDONESIA
+- RULE-SET,rule_telegramcidr,INDONESIA
+- RULE-SET,rule_indo,INDONESIA
+- RULE-SET,rule_videoconferences,SINGAPURA
+- RULE-SET,rule_playstore,CLASH
+- RULE-SET,rule_gaming,INDONESIA
+- RULE-SET,rule_games,INDONESIA
+- RULE-SET,rule_portgames,INDONESIA
+- RULE-SET,rule_direct,DIRECT
+- RULE-SET,rule_privacy,ADS
+- RULE-SET,Basic-ADS,ADS,no-resolve
+- RULE-SET,Personal-ADS,ADS,no-resolve
+- GEOSITE,category-ads-all,ADS
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- IP-CIDR6,::1/128,REJECT,no-resolve
+#- DST-PORT,21-23/53/123/143/194/443/465/587/853/993/995/998/2052/2053/2082/2083/2086/2095/2096/5222/5228/5229/5230/8080/8443/8880/8888-8889,DIRECT,udp
+- MATCH,CLASH
+tun:
+  enable: true
+  stack: system
+  auto-route: false
+  auto-detect-interface: false
+  dns-hijack:
+  - tcp://any:53
+tproxy-port: 7895
