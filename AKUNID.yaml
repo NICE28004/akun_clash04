@@ -50,3 +50,25 @@ proxies:
   - {name: hgvc, server: 104.17.2.81, port: 443, type: trojan, password: ee6cb250-4a54-11ed-b436-225401db9d57, skip-cert-verify: false, sni: id-ikd.tjvpn.org, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-ikd.tjvpn.org}}}
   - {name: hgvc, server: 104.17.2.81, port: 443, type: trojan, password: ee6cb250-4a54-11ed-b436-225401db9d57, skip-cert-verify: false, sni: id-ikd.tjvpn.org, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-ikd.tjvpn.org}}}
   - {name: hgvc, server: 104.17.2.81, port: 443, type: trojan, password: ee6cb250-4a54-11ed-b436-225401db9d57, skip-cert-verify: false, sni: id-ikd.tjvpn.org, network: ws, ws-opts: {path: /fastssh, headers: {Host: id-ikd.tjvpn.org}}}
+  - name: whyvpn-aname
+    server: 104.26.5.10
+    port: 443
+    type: trojan
+    password: 018a271b-415b-4825-ad4c-0a0a1fb6f8bf
+    skip-cert-verify: true
+    sni: id1.kitu.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: xray-trojan-grpc
+    udp: true
+  - name: whyvpn-aname 2
+    server: 104.26.5.10
+    port: 443
+    type: trojan
+    password: 018a271b-415b-4825-ad4c-0a0a1fb6f8bf
+    skip-cert-verify: true
+    sni: id1.kitu.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: xray-trojan-grpc
+    udp: true
