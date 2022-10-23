@@ -87,3 +87,29 @@ proxies:
   - {name: opentunnel.net-tggggggg 7, server: 172.67.73.39, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: false, servername: sgv-3.openv2ray.com, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-tggggggg", headers: {Host: sgv-3.openv2ray.com}}}
   - {name: opentunnel.net-tggggggg 8, server: 172.67.73.39, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: false, servername: sgv-3.openv2ray.com, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-tggggggg", headers: {Host: sgv-3.openv2ray.com}}}
   - {name: opentunnel.net-tggggggg 9, server: 172.67.73.39, port: 443, type: vmess, uuid: a40d34c6-b77c-4648-9210-3e8d2f4226b5, alterId: 16, cipher: auto, tls: true, skip-cert-verify: false, servername: sgv-3.openv2ray.com, network: ws, ws-opts: {path: "/opentunnel?user=opentunnel.net-tggggggg", headers: {Host: sgv-3.openv2ray.com}}}
+  - name: SG
+    server: 104.26.5.10
+    port: 443
+    type: trojan
+    password: whyvpn-a1
+    skip-cert-verify: true
+    sni: do1.kitu.xyz
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: do1.kitu.xyz
+    udp: true
+  - name: SG 2
+    server: 104.26.5.10
+    port: 443
+    type: trojan
+    password: whyvpn-a1
+    skip-cert-verify: true
+    sni: do1.kitu.xyz
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: do1.kitu.xyz
+    udp: true
