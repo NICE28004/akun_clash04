@@ -1,4 +1,2 @@
 proxies:
-  - {name: whyvpn-aname, server: id1grpc.sshocean.net, port: 443, type: trojan, password: 54feac97-8e70-41b4-a8d0-8d49740fb4bc, skip-cert-verify: false, sni: io.ruangguru.com, network: grpc, grpc-opts: {grpc-service-name: grpc}}
-  - {name: whyvpn-aname 2, server: id1grpc.sshocean.net, port: 443, type: trojan, password: 54feac97-8e70-41b4-a8d0-8d49740fb4bc, skip-cert-verify: false, sni: io.ruangguru.com, network: grpc, grpc-opts: {grpc-service-name: grpc}}
-  - {name: whyvpn-aname 3, server: id1grpc.sshocean.net, port: 443, type: trojan, password: 54feac97-8e70-41b4-a8d0-8d49740fb4bc, skip-cert-verify: false, sni: io.ruangguru.com, network: grpc, grpc-opts: {grpc-service-name: grpc}}
+  - {name: sshocean-ggggffff_trojan, server: sgt5.sshocean.net, port: 443, type: trojan, password: 3d6275d4-66f2-4f28-bfe6-e79d6d2f41d5, skip-cert-verify: false, sni: io.ruangguru.com}
