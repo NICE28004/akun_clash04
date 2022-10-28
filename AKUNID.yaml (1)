@@ -1,0 +1,12 @@
+proxies:
+  - name: whyvpn-aname
+    server: id1grpc.sshocean.net
+    port: 443
+    type: trojan
+    password: 54feac97-8e70-41b4-a8d0-8d49740fb4bc
+    skip-cert-verify: true
+    sni: io.ruangguru.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: grpc
+    udp: true
