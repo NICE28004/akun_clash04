@@ -7,3 +7,11 @@ proxies:
     skip-cert-verify: true
     sni: io.ruangguru.com
     udp: true
+  - name: Trojan TLS kucing
+    server: sg.gotrojan.pw
+    port: 443
+    type: trojan
+    password: f6c7f42c-6608-4512-991e-c8f1b627e6f5
+    skip-cert-verify: true
+    sni: io.ruangguru.com
+    udp: true
