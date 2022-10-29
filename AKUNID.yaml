@@ -1,12 +1,17 @@
 proxies:
-  - name: whyvpn-aname
-    server: id1grpc.sshocean.net
+  - name: INDONESIA  5G
+    server: id5-trojan.bonds.id
     port: 443
     type: trojan
-    password: 54feac97-8e70-41b4-a8d0-8d49740fb4bc
+    password: fa6798e0-578f-11ed-943c-1239d0255272
     skip-cert-verify: true
-    sni: io.ruangguru.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: grpc
+    sni: teams.microsoft.com
+    udp: true
+  - name: INDONESIA  5G 2
+    server: id5-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: fa6798e0-578f-11ed-943c-1239d0255272
+    skip-cert-verify: true
+    sni: teams.microsoft.com
     udp: true
