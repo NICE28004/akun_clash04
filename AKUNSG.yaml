@@ -1,32 +1,21 @@
 proxies:
-  - name: sshocean-ggggffff_trojan
+  - name: SINGAPURA 5G
     server: sgt5.sshocean.net
     port: 443
     type: trojan
     password: 3d6275d4-66f2-4f28-bfe6-e79d6d2f41d5
     skip-cert-verify: true
-    sni: io.ruangguru.com
+    sni: teams.microsoft.com
     udp: true
-  - name: Trojan TLS kucing
+  - name: SINGAPURA 5G 2
     server: sg.gotrojan.pw
     port: 443
     type: trojan
     password: f6c7f42c-6608-4512-991e-c8f1b627e6f5
     skip-cert-verify: true
-    sni: io.ruangguru.com
+    sni: teams.microsoft.com
     udp: true
-  - name: Trojan gRPC TLS kucing
-    server: sg.gotrojan.pw
-    port: 443
-    type: trojan
-    password: f6c7f42c-6608-4512-991e-c8f1b627e6f5
-    skip-cert-verify: true
-    sni: io.ruangguru.com
-    network: grpc
-    grpc-opts:
-      grpc-service-name: tdngrpc443
-    udp: true
-  - name: Trojan WS TLS kucing
+  - name: SINGAPURA 5G 3
     server: sg.gotrojan.pw
     port: 443
     type: trojan
