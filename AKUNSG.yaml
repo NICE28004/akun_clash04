@@ -1,6 +1,6 @@
 proxies:
   - name: SINGAPURA 5G
-    server: sgt5.sshocean.net
+    server: sg.gotrojan.pw
     port: 443
     type: trojan
     password: 62bd0208-783a-4d27-8925-a590b781c7c7
@@ -21,10 +21,5 @@ proxies:
     type: trojan
     password: 62bd0208-783a-4d27-8925-a590b781c7c7
     skip-cert-verify: true
-    sni: io.ruangguru.com
-    network: ws
-    ws-opts:
-      path: /trojan-ws
-      headers:
-        Host: sg.gotrojan.pw
+    sni: teams.microsoft.com
     udp: true
