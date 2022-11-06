@@ -356,9 +356,9 @@ rules:
 - RULE-SET,rule_indo,INDONESIA
 - RULE-SET,rule_videoconferences,SINGAPURA
 - RULE-SET,rule_playstore,CLASH
-- RULE-SET,rule_gaming,INDONESIA
-- RULE-SET,rule_games,INDONESIA
-- RULE-SET,rule_portgames,INDONESIA
+- RULE-SET,rule_gaming,DIRECT
+- RULE-SET,rule_games,DIRECT
+- RULE-SET,rule_portgames,DIRECT
 - RULE-SET,rule_direct,DIRECT
 - RULE-SET,rule_privacy,ADS
 - RULE-SET,Basic-ADS,ADS,no-resolve
