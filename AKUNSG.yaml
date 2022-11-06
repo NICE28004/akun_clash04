@@ -3,7 +3,7 @@ proxies:
     server: sgt5.sshocean.net
     port: 443
     type: trojan
-    password: 3d6275d4-66f2-4f28-bfe6-e79d6d2f41d5
+    password: 62bd0208-783a-4d27-8925-a590b781c7c7
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
@@ -11,7 +11,7 @@ proxies:
     server: sg.gotrojan.pw
     port: 443
     type: trojan
-    password: f6c7f42c-6608-4512-991e-c8f1b627e6f5
+    password: 62bd0208-783a-4d27-8925-a590b781c7c7
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
@@ -19,7 +19,7 @@ proxies:
     server: sg.gotrojan.pw
     port: 443
     type: trojan
-    password: f6c7f42c-6608-4512-991e-c8f1b627e6f5
+    password: 62bd0208-783a-4d27-8925-a590b781c7c7
     skip-cert-verify: true
     sni: io.ruangguru.com
     network: ws
