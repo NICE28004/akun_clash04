@@ -1,25 +1,25 @@
 proxies:
   - name: SINGAPURA 5G
-    server: sg.gotrojan.pw
+    server: sg-atha.bonds.id
     port: 443
     type: trojan
-    password: 62bd0208-783a-4d27-8925-a590b781c7c7
+    password: 5d8297e0-5f76-11ed-ad2d-1239d0255272
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
   - name: SINGAPURA 5G 2
-    server: sg.gotrojan.pw
+    server: sg-atha.bonds.id
     port: 443
     type: trojan
-    password: 62bd0208-783a-4d27-8925-a590b781c7c7
+    password: 5d8297e0-5f76-11ed-ad2d-1239d0255272
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
   - name: SINGAPURA 5G 3
-    server: sg.gotrojan.pw
+    server: sg-atha.bonds.id
     port: 443
     type: trojan
-    password: 62bd0208-783a-4d27-8925-a590b781c7c7
+    password: 5d8297e0-5f76-11ed-ad2d-1239d0255272
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
