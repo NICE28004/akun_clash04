@@ -1,17 +1,25 @@
 proxies:
   - name: INDONESIA  5G
-    server: id5-trojan.bonds.id
+    server: idtcp.mainssh.xyz
     port: 443
     type: trojan
-    password: fa6798e0-578f-11ed-943c-1239d0255272
+    password: mainssh-dhhfhfhbb
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
   - name: INDONESIA  5G 2
-    server: id5-trojan.bonds.id
+    server: idtcp.mainssh.xyz
     port: 443
     type: trojan
-    password: fa6798e0-578f-11ed-943c-1239d0255272
+    password: mainssh-dhhfhfhbb
+    skip-cert-verify: true
+    sni: teams.microsoft.com
+    udp: true
+  - name: INDONESIA  5G 3
+    server: idtcp.mainssh.xyz
+    port: 443
+    type: trojan
+    password: mainssh-dhhfhfhbb
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
