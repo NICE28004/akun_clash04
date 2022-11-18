@@ -1,25 +1,34 @@
 proxies:
-  - name: INDONESIA  5G
-    server: idtcp.mainssh.xyz
+  - name: INDONESIA 
+    server: 104.26.5.10
     port: 443
     type: trojan
-    password: mainssh-dhhfhfhbb
+    password: mainssh-game1hfhr
     skip-cert-verify: true
-    sni: teams.microsoft.com
+    sni: sg2tgrpc.mainssh.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
     udp: true
-  - name: INDONESIA  5G 2
-    server: idtcp.mainssh.xyz
+  - name: INDONESIA  2
+    server: 104.26.5.10
     port: 443
     type: trojan
-    password: mainssh-dhhfhfhbb
+    password: mainssh-game1hfhr
     skip-cert-verify: true
-    sni: teams.microsoft.com
+    sni: sg2tgrpc.mainssh.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
     udp: true
-  - name: INDONESIA  5G 3
-    server: idtcp.mainssh.xyz
+  - name: INDONESIA  3
+    server: 104.26.5.10
     port: 443
     type: trojan
-    password: mainssh-dhhfhfhbb
+    password: mainssh-game1hfhr
     skip-cert-verify: true
-    sni: teams.microsoft.com
+    sni: sg2tgrpc.mainssh.xyz
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojangrpc
     udp: true
