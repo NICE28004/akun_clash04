@@ -196,7 +196,7 @@ proxy-groups:
 
 - name: SINGAPURA
   type: url-test
-  url: http://www.gstatic.com/generate_204
+  url: http://www.gstatic.com/generate_204h
   disable-udp: false
   interval: 361
   use:
