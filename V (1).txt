@@ -61,12 +61,6 @@ proxy-groups:
      - DIRECT
   
 rule-providers:
-  clash:
-    type: http
-    behavior: domain
-    url: https://howdy.id/download/rules/clash.txt
-    path: ./providers/rule-provider_clash.yaml
-    interval: 86400
   Basic-ADS:
     type: http
     behavior: domain
@@ -80,7 +74,6 @@ rule-providers:
     path: "./rule_provider/personalads.yaml"
     interval: 86300
 rules:
-  - RULE-SET,clash,REJECT
   - RULE-SET,Basic-ADS,ADS,no-resolve
   - RULE-SET,Personal-ADS,ADS,no-resolve
   - GEOSITE,category-ads-all,ADS
