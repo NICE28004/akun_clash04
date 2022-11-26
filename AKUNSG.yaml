@@ -1,25 +1,25 @@
 proxies:
-  - name: SINGAPURA 5G
-    server: sg-atha.bonds.id
+  - name: Ovhkucing-globalssh_trojan
+    server: trojan-ovh-sg01.globalssh.xyz
     port: 443
     type: trojan
-    password: 5d8297e0-5f76-11ed-ad2d-1239d0255272
+    password: Kucing
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
-  - name: SINGAPURA 5G 2
-    server: sg-atha.bonds.id
+  - name: Ovhkucing-globalssh_trojan 2
+    server: trojan-ovh-sg01.globalssh.xyz
     port: 443
     type: trojan
-    password: 5d8297e0-5f76-11ed-ad2d-1239d0255272
+    password: Kucing
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
-  - name: SINGAPURA 5G 3
-    server: sg-atha.bonds.id
+  - name: Ovhkucing-globalssh_trojan 3
+    server: trojan-ovh-sg01.globalssh.xyz
     port: 443
     type: trojan
-    password: 5d8297e0-5f76-11ed-ad2d-1239d0255272
+    password: Kucing
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
