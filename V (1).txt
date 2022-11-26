@@ -54,6 +54,12 @@ proxy-groups:
     interval: 300
     proxies:
       - Ovhkucing-globalssh_trojan
+  - name: ADS
+    type: select
+    proxies:
+     - REJECT
+     - DIRECT
+  
 rule-providers:
   clash:
     type: http
@@ -63,4 +69,7 @@ rule-providers:
     interval: 86400
 rules:
   - RULE-SET,clash,REJECT
+  - RULE-SET,Basic-ADS,ADS,no-resolve
+  - RULE-SET,Personal-ADS,ADS,no-resolve
+  - GEOSITE,category-ads-all,ADS
   - MATCH,FASTSSH-SSHKIT-HOWDY
