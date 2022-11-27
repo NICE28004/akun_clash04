@@ -25,11 +25,29 @@ proxies:
     skip-cert-verify: true
     sni: teams.microsoft.com
     udp: true
+  - name: Ovhkucing-globalssh_trojan 2
+    server: trojan-ovh-sg01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: Kucing
+    skip-cert-verify: true
+    sni: teams.microsoft.com
+    udp: true
+  - name: Ovhkucing-globalssh_trojan 3
+    server: trojan-ovh-sg01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: Kucing
+    skip-cert-verify: true
+    sni: teams.microsoft.com
+    udp: true
 proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
       - Ovhkucing-globalssh_trojan
+      - Ovhkucing-globalssh_trojan 2
+      - Ovhkucing-globalssh_trojan 3
       - LOAD-BALANCE
       - BEST-PING
       - FALLBACK
@@ -41,6 +59,8 @@ proxy-groups:
     interval: 300
     proxies:
       - Ovhkucing-globalssh_trojan
+      - Ovhkucing-globalssh_trojan 2
+      - Ovhkucing-globalssh_trojan 3
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
@@ -48,18 +68,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - Ovhkucing-globalssh_trojan
+      - Ovhkucing-globalssh_trojan 2
+      - Ovhkucing-globalssh_trojan 3
   - name: FALLBACK
     type: fallback
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
       - Ovhkucing-globalssh_trojan
-  - name: ADS
-    type: select
-    proxies:
-     - REJECT
-     - DIRECT
-  
+      - Ovhkucing-globalssh_trojan 2
+      - Ovhkucing-globalssh_trojan 3
 rule-providers:
   Basic-ADS:
     type: http
