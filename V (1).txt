@@ -1,3 +1,4 @@
+tproxy-port: 7893
 bind-address: "*"
 mode: rule
 allow-lan: true
@@ -204,11 +205,3 @@ rules:
 - RULE-SET,Basic-ADS,ADS,no-resolve
 - RULE-SET,Personal-ADS,ADS,no-resolve
 - MATCH,CLASH
-tun:
-  enable: true
-  stack: system
-  auto-route: false
-  auto-detect-interface: false
-  dns-hijack:
-  - tcp://any:53
-  tproxy-port: 7895
