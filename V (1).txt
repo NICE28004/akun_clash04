@@ -78,6 +78,11 @@ proxy-groups:
       - Ovhkucing-globalssh_trojan
       - Ovhkucing-globalssh_trojan 2
       - Ovhkucing-globalssh_trojan 3
+  - name: ADS
+    type: select
+    proxies:
+     - REJECT
+     - DIRECT
 rule-providers:
   Basic-ADS:
     type: http
