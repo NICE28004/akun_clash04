@@ -42,7 +42,7 @@ proxies:
     sni: teams.microsoft.com
     udp: true
 proxy-groups:
-  - name: FASTSSH-SSHKIT-HOWDY
+  - name: CLASH
     type: select
     proxies:
       - Ovhkucing-globalssh_trojan
@@ -84,6 +84,42 @@ proxy-groups:
      - REJECT
      - DIRECT
 rule-providers:
+  rule_portgames:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_portgames.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_portgames.yaml
+    interval: 86400
+  rule_videoconferences:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_videoconferences.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_videoconferences.yaml
+    interval: 86400
+  rule_indo:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_Indo.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_indo.yaml
+    interval: 86400
+  rule_sosmed:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_sosmed.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_sosmed.yaml
+    interval: 86400
+  rule_streaming:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_streaming.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_streaming.yaml
+    interval: 86400
+  rule_gaming:
+    type: http
+    behavior: classical
+    path: "./rule_provider/rule_gaming.yaml"
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_gaming.yaml
+    interval: 86400
   Basic-ADS:
     type: http
     behavior: domain
@@ -96,7 +132,84 @@ rule-providers:
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
     path: "./rule_provider/personalads.yaml"
     interval: 86300
+  rule_telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegramcidr.yaml
+    path: "./rule_provider/rule_telegramcidr.yaml"
+    interval: 86400
+  rule_telegram:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_telegram.yaml
+    path: "./rule_provider/rule_telegram.yaml"
+    interval: 86400
+  rule_disneyplus:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_disneyplus.yaml
+    path: "./rule_provider/rule_disneyplus.yaml"
+    interval: 86400
+  rule_games:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_games.yaml
+    path: "./rule_provider/rule_games.yaml"
+    interval: 86400
+  rule_playstore:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_playstore.yaml
+    path: "./rule_provider/rule_playstore.yaml"
+    interval: 86400
+  rule_tiktok:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_tiktok.yaml
+    path: "./rule_provider/rule_tiktok.yaml"
+    interval: 86400
+  rule_youtube:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_youtube.yaml
+    path: "./rule_provider/rule_Youtube.yaml"
+    interval: 86400
+  rule_direct:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_direct.yaml
+    path: "./rule_provider/rule_direct.yaml"
+    interval: 86400
+  rule_privacy:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_privacy.yaml
+    path: "./rule_provider/rule_privacy.yaml"
+    interval: 86400
 rules:
-  - RULE-SET,Basic-ADS,ADS,no-resolve
-  - RULE-SET,Personal-ADS,ADS,no-resolve
-  - MATCH,FASTSSH-SSHKIT-HOWDY
+- RULE-SET,rule_streaming,LOAD-BALANCE
+- RULE-SET,rule_disneyplus,INDONESIA
+- RULE-SET,rule_youtube,LOAD-BALANCE
+- RULE-SET,rule_sosmed,INDONESIA
+- RULE-SET,rule_tiktok,INDONESIA
+- RULE-SET,rule_telegram,INDONESIA
+- RULE-SET,rule_telegramcidr,INDONESIA
+- RULE-SET,rule_indo,INDONESIA
+- RULE-SET,rule_videoconferences,LOAD-BALANCE
+- RULE-SET,rule_playstore,CLASH
+- RULE-SET,rule_gaming,LOAD-BALANCE
+- RULE-SET,rule_games,LOAD-BALANCE
+- RULE-SET,rule_portgames,LOAD-BALANCE
+- RULE-SET,rule_direct,DIRECT
+- RULE-SET,rule_privacy,ADS
+- RULE-SET,Basic-ADS,ADS,no-resolve
+- RULE-SET,Personal-ADS,ADS,no-resolve
+- MATCH,CLASH
+tun:
+  enable: true
+  stack: system
+  auto-route: false
+  auto-detect-interface: false
+  dns-hijack:
+  - tcp://any:53
+tproxy-port: 7895
