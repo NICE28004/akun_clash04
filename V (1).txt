@@ -1,4 +1,3 @@
-tproxy-port: 7893
 bind-address: "*"
 mode: rule
 allow-lan: true
