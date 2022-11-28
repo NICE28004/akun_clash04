@@ -23,22 +23,50 @@ proxy-groups:
       - LOAD-BALANCE
       - BEST-PING
       - ADS
-  - name: LOAD-BALANCE
-    type: load-balance
-    strategy: consistent-hashing
+  - name: SG
+    type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
+    tolerance: 50
     use:
       - AKUNSG
+  - name: SG2
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    use:
       - AKUNSG2
-  - name: BEST-PING
+  - name: ID
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     use:
       - AKUNID
-      - AKUNID2
+  - name: ID2
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    use:
+      - AKUNID
+  - name: LOAD-BALANCE
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://hi.bonds.id/ping
+    interval: 300
+    proxies:
+      - SG
+      - SG2
+  - name: BEST-PING
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    proxies:
+      - ID
+      - ID2
   - name: ADS
     type: select
     proxies:
@@ -193,7 +221,7 @@ rule-providers:
     path: "./rule_provider/rule_privacy.yaml"
     interval: 86400
 rules:
-- RULE-SET,rule_streaming,BEST-PING
+- RULE-SET,rule_streaming,LOAD-BALANCE
 - RULE-SET,rule_disneyplus,BEST-PING
 - RULE-SET,rule_youtube,LOAD-BALANCE
 - RULE-SET,rule_sosmed,LOAD-BALANCE
@@ -201,7 +229,7 @@ rules:
 - RULE-SET,rule_telegram,LOAD-BALANCE
 - RULE-SET,rule_telegramcidr,LOAD-BALANCE
 - RULE-SET,rule_indo,BEST-PING
-- RULE-SET,rule_videoconferences,BEST-PING
+- RULE-SET,rule_videoconferences,LOAD-BALANCE
 - RULE-SET,rule_playstore,CLASH
 - RULE-SET,rule_gaming,BEST-PING
 - RULE-SET,rule_games,BEST-PING
