@@ -28,7 +28,7 @@ proxy-groups:
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 300
-    proxies:
+    use:
       - AKUNSG
       - AKUNSG2
   - name: BEST-PING
@@ -36,7 +36,7 @@ proxy-groups:
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
-    proxies:
+    use:
       - AKUNID
       - AKUNID2
   - name: ADS
