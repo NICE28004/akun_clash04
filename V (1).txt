@@ -16,73 +16,79 @@ dns:
   use-hosts: true
   nameserver:
     - https://cloudflare-dns.com/dns-query
-proxies:
-  - name: Ovhkucing-globalssh_trojan
-    server: trojan-ovh-sg01.globalssh.xyz
-    port: 443
-    type: trojan
-    password: Kucing
-    skip-cert-verify: true
-    sni: teams.microsoft.com
-    udp: true
-  - name: Ovhkucing-globalssh_trojan 2
-    server: trojan-ovh-sg01.globalssh.xyz
-    port: 443
-    type: trojan
-    password: Kucing
-    skip-cert-verify: true
-    sni: teams.microsoft.com
-    udp: true
-  - name: Ovhkucing-globalssh_trojan 3
-    server: trojan-ovh-sg01.globalssh.xyz
-    port: 443
-    type: trojan
-    password: Kucing
-    skip-cert-verify: true
-    sni: teams.microsoft.com
-    udp: true
 proxy-groups:
   - name: CLASH
     type: select
     proxies:
-      - Ovhkucing-globalssh_trojan
-      - Ovhkucing-globalssh_trojan 2
-      - Ovhkucing-globalssh_trojan 3
       - LOAD-BALANCE
       - BEST-PING
-      - FALLBACK
-      - DIRECT
+      - ADS
   - name: LOAD-BALANCE
     type: load-balance
     strategy: consistent-hashing
     url: http://hi.bonds.id/ping
     interval: 300
     proxies:
-      - Ovhkucing-globalssh_trojan
-      - Ovhkucing-globalssh_trojan 2
-      - Ovhkucing-globalssh_trojan 3
+      - AKUNSG
+      - AKUNSG2
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     proxies:
-      - Ovhkucing-globalssh_trojan
-      - Ovhkucing-globalssh_trojan 2
-      - Ovhkucing-globalssh_trojan 3
-  - name: FALLBACK
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    proxies:
-      - Ovhkucing-globalssh_trojan
-      - Ovhkucing-globalssh_trojan 2
-      - Ovhkucing-globalssh_trojan 3
+      - AKUNID
+      - AKUNID2
   - name: ADS
     type: select
     proxies:
      - REJECT
      - DIRECT
+proxy-providers:
+  AKUNID:
+    type: http
+    behavior: classical
+    path: ./AKUNID.yaml
+    url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/AKUNID.yaml
+    interval: 3500
+    health-check:
+      enable: true
+      interval: 180
+      lazy: true
+      url: 'http://www.gstatic.com/generate_204'
+  AKUNSG:
+    type: http
+    behavior: classical
+    path: ./AKUNSG.yaml
+    url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/AKUNSG.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 180
+      lazy: true
+      url: 'http://www.gstatic.com/generate_204'
+  AKUNID2:
+    type: http
+    behavior: classical
+    path: ./AKUNID2.yaml
+    url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/AKUNID.yaml
+    interval: 3500
+    health-check:
+      enable: true
+      interval: 180
+      lazy: true
+      url: 'http://www.gstatic.com/generate_204'
+  AKUNSG2:
+    type: http
+    behavior: classical
+    path: ./AKUNSG2.yaml
+    url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/AKUNSG2.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 180
+      lazy: true
+      url: 'http://www.gstatic.com/generate_204'
 rule-providers:
   rule_portgames:
     type: http
@@ -187,19 +193,19 @@ rule-providers:
     path: "./rule_provider/rule_privacy.yaml"
     interval: 86400
 rules:
-- RULE-SET,rule_streaming,LOAD-BALANCE
-- RULE-SET,rule_disneyplus,INDONESIA
+- RULE-SET,rule_streaming,BEST-PING
+- RULE-SET,rule_disneyplus,BEST-PING
 - RULE-SET,rule_youtube,LOAD-BALANCE
-- RULE-SET,rule_sosmed,INDONESIA
-- RULE-SET,rule_tiktok,INDONESIA
-- RULE-SET,rule_telegram,INDONESIA
-- RULE-SET,rule_telegramcidr,INDONESIA
-- RULE-SET,rule_indo,INDONESIA
-- RULE-SET,rule_videoconferences,LOAD-BALANCE
+- RULE-SET,rule_sosmed,LOAD-BALANCE
+- RULE-SET,rule_tiktok,LOAD-BALANCE
+- RULE-SET,rule_telegram,LOAD-BALANCE
+- RULE-SET,rule_telegramcidr,LOAD-BALANCE
+- RULE-SET,rule_indo,BEST-PING
+- RULE-SET,rule_videoconferences,BEST-PING
 - RULE-SET,rule_playstore,CLASH
-- RULE-SET,rule_gaming,LOAD-BALANCE
-- RULE-SET,rule_games,LOAD-BALANCE
-- RULE-SET,rule_portgames,LOAD-BALANCE
+- RULE-SET,rule_gaming,BEST-PING
+- RULE-SET,rule_games,BEST-PING
+- RULE-SET,rule_portgames,BEST-PING
 - RULE-SET,rule_direct,DIRECT
 - RULE-SET,rule_privacy,ADS
 - RULE-SET,Basic-ADS,ADS,no-resolve
