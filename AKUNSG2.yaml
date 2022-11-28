@@ -1,0 +1,33 @@
+proxies:
+  - name: Contabotro-globalssh_trojan
+    server: trojan-ctb-sg01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: contabo
+    sni: layanan.ruangguru.com
+    skip-cert-verify: true
+    udp: true
+  - name: Contabotro-globalssh_trojan 2
+    server: trojan-ctb-sg01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: contabo
+    sni: layanan.ruangguru.com
+    skip-cert-verify: true
+    udp: true
+  - name: Contabotro-globalssh_trojan 3
+    server: trojan-ctb-sg01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: contabo
+    sni: layanan.ruangguru.com
+    skip-cert-verify: true
+    udp: true
+  - name: Contabotro-globalssh_trojan 4
+    server: trojan-ctb-sg01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: contabo
+    sni: layanan.ruangguru.com
+    skip-cert-verify: true
+    udp: true
