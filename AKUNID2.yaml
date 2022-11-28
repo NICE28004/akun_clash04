@@ -1,0 +1,49 @@
+proxies:
+  - name: Amptrojan-globalssh_trojan
+    server: trojan-amp-id01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: Amptrojan
+    sni: teams.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: Amptrojan-globalssh_trojan 2
+    server: trojan-amp-id01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: Amptrojan
+    sni: teams.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: Amptrojan-globalssh_trojan 3
+    server: trojan-amp-id01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: Amptrojan
+    sni: teams.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: Amptrojan-globalssh_trojan 4
+    server: trojan-amp-id01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: Amptrojan
+    sni: teams.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: Amptrojan-globalssh_trojan 5
+    server: trojan-amp-id01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: Amptrojan
+    sni: teams.microsoft.com
+    skip-cert-verify: true
+    udp: true
+  - name: Amptrojan-globalssh_trojan 6
+    server: trojan-amp-id01.globalssh.xyz
+    port: 443
+    type: trojan
+    password: Amptrojan
+    sni: teams.microsoft.com
+    skip-cert-verify: true
+    udp: true
