@@ -1,49 +1,49 @@
 proxies:
-  - name: Amptrojan-globalssh_trojan
-    server: trojan-amp-id01.globalssh.xyz
+  - name: Vvvbbvv-trial_trojan_grpc
+    server: 104.26.5.10
     port: 443
     type: trojan
-    password: Amptrojan
-    sni: teams.microsoft.com
+    password: Gggggvv
+    sni: ikd-id01.iptr.xyz
     skip-cert-verify: true
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: trojan-grpc-Vvvbbvv-trial
     udp: true
-  - name: Amptrojan-globalssh_trojan 2
-    server: trojan-amp-id01.globalssh.xyz
+  - name: Vvvbbvv-trial_trojan_grpc 2
+    server: 104.26.5.10
     port: 443
     type: trojan
-    password: Amptrojan
-    sni: teams.microsoft.com
+    password: Gggggvv
+    sni: ikd-id01.iptr.xyz
     skip-cert-verify: true
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: trojan-grpc-Vvvbbvv-trial
     udp: true
-  - name: Amptrojan-globalssh_trojan 3
-    server: trojan-amp-id01.globalssh.xyz
+  - name: Vvvbbvv-trial_trojan_grpc 3
+    server: 104.26.5.10
     port: 443
     type: trojan
-    password: Amptrojan
-    sni: teams.microsoft.com
+    password: Gggggvv
+    sni: ikd-id01.iptr.xyz
     skip-cert-verify: true
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: trojan-grpc-Vvvbbvv-trial
     udp: true
-  - name: Amptrojan-globalssh_trojan 4
-    server: trojan-amp-id01.globalssh.xyz
+  - name: Vvvbbvv-trial_trojan_grpc 4
+    server: 104.26.5.10
     port: 443
     type: trojan
-    password: Amptrojan
-    sni: teams.microsoft.com
+    password: Gggggvv
+    sni: ikd-id01.iptr.xyz
     skip-cert-verify: true
-    udp: true
-  - name: Amptrojan-globalssh_trojan 5
-    server: trojan-amp-id01.globalssh.xyz
-    port: 443
-    type: trojan
-    password: Amptrojan
-    sni: teams.microsoft.com
-    skip-cert-verify: true
-    udp: true
-  - name: Amptrojan-globalssh_trojan 6
-    server: trojan-amp-id01.globalssh.xyz
-    port: 443
-    type: trojan
-    password: Amptrojan
-    sni: teams.microsoft.com
-    skip-cert-verify: true
+    network: grpc
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: trojan-grpc-Vvvbbvv-trial
     udp: true
