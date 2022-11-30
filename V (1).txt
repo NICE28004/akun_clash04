@@ -182,6 +182,7 @@ proxy-groups:
     proxies:
       - LOAD-BALANCE
       - BEST-PING
+      - LOAD-BALANCE (T)
       - ADS
   - name: SG
     type: url-test
@@ -211,6 +212,20 @@ proxy-groups:
     tolerance: 50
     use:
       - AKUNID2
+  - name: T
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    use:
+      - tsel
+  - name: T2
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    use:
+      - tsel2
   - name: LOAD-BALANCE
     type: load-balance
     strategy: consistent-hashing
@@ -227,6 +242,15 @@ proxy-groups:
     proxies:
       - ID
       - ID2
+  - name: LOAD-BALANCE (T)
+    type: load-balance
+    strategy: consistent-hashing
+    url: http://hi.bonds.id/ping
+    interval: 300
+    proxies:
+      - T
+      - T2
+      
   - name: ADS
     type: select
     proxies:
@@ -271,6 +295,28 @@ proxy-providers:
     behavior: classical
     path: ./AKUNSG2.yaml
     url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/AKUNSG2.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 180
+      lazy: true
+      url: 'http://www.gstatic.com/generate_204'
+  T:
+    type: http
+    behavior: classical
+    path: ./T.yaml
+    url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/T.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 180
+      lazy: true
+      url: 'http://www.gstatic.com/generate_204'
+  T2:
+    type: http
+    behavior: classical
+    path: ./T2.yaml
+    url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/T2.yaml
     interval: 3600
     health-check:
       enable: true
