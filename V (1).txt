@@ -250,7 +250,6 @@ proxy-groups:
     proxies:
       - T
       - T2
-      
   - name: ADS
     type: select
     proxies:
