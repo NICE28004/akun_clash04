@@ -414,7 +414,7 @@ rules:
 - RULE-SET,rule_telegramcidr,LOAD-BALANCE
 - RULE-SET,rule_indo,BEST-PING
 - RULE-SET,rule_videoconferences,LOAD-BALANCE
-- RULE-SET,rule_playstore,CLASH
+- RULE-SET,rule_playstore,LOAD-BALANCE
 - RULE-SET,rule_gaming,BEST-PING
 - RULE-SET,rule_games,BEST-PING
 - RULE-SET,rule_portgames,BEST-PING
