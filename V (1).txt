@@ -218,14 +218,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - tsel
+      - T
   - name: T2
     type: url-test
     url: http://hi.bonds.id/ping
     interval: 300
     tolerance: 50
     use:
-      - tsel2
+      - T2
   - name: LOAD-BALANCE
     type: load-balance
     strategy: consistent-hashing
