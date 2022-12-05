@@ -63,3 +63,51 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
+  - name: dynamic-sg1b.obfs.xyz
+    server: dynamic-sg1b.obfs.xyz
+    port: 80
+    type: vmess
+    uuid: d6fff277-f1c7-47bf-86b0-b29cec6e4f0b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: dynamic-sg1b.obfs.xyz 2
+    server: dynamic-sg1b.obfs.xyz
+    port: 80
+    type: vmess
+    uuid: d6fff277-f1c7-47bf-86b0-b29cec6e4f0b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: dynamic-sg1b.obfs.xyz 3
+    server: dynamic-sg1b.obfs.xyz
+    port: 80
+    type: vmess
+    uuid: d6fff277-f1c7-47bf-86b0-b29cec6e4f0b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
