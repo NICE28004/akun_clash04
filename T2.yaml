@@ -47,3 +47,67 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
+  - name: v2ray1.udpgw.com
+    server: v2ray1.udpgw.com
+    port: 80
+    type: vmess
+    uuid: 1eef9a98-5935-4eb6-8972-76860cf57a6f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: v2ray1.udpgw.com 2
+    server: v2ray1.udpgw.com
+    port: 80
+    type: vmess
+    uuid: 1eef9a98-5935-4eb6-8972-76860cf57a6f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: v2ray1.udpgw.com 3
+    server: v2ray1.udpgw.com
+    port: 80
+    type: vmess
+    uuid: 1eef9a98-5935-4eb6-8972-76860cf57a6f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: v2ray1.udpgw.com 4
+    server: v2ray1.udpgw.com
+    port: 80
+    type: vmess
+    uuid: 1eef9a98-5935-4eb6-8972-76860cf57a6f
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
