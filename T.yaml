@@ -1,9 +1,9 @@
 proxies:
-  - name: testgangbang
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -15,11 +15,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 2
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 2
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -31,11 +31,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 3
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 3
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -47,11 +47,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 4
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 4
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -63,11 +63,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 5
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 5
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -79,11 +79,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 6
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 6
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -95,11 +95,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 7
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 7
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -111,11 +111,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 8
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 8
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -127,11 +127,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 9
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 9
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -143,11 +143,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 10
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 10
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -159,11 +159,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 11
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 11
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -175,11 +175,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 12
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 12
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -191,11 +191,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 13
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 13
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -207,11 +207,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 14
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 14
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -223,11 +223,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 15
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 15
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -239,11 +239,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 16
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 16
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -255,11 +255,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 17
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 17
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -271,11 +271,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 18
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 18
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -287,11 +287,11 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 19
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 19
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
@@ -303,11 +303,363 @@ proxies:
       headers:
         Host: tsel.me
     udp: true
-  - name: testgangbang 20
-    server: magna.bhm.my.id
+  - name: sg1-temp.v2-ray.com 20
+    server: sg1-temp.v2-ray.com
     port: 80
     type: vmess
-    uuid: 22bdabf0-9632-469b-bdb7-dae0183705ec
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 21
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 22
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 23
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 24
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 25
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 26
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 27
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 28
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 29
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 30
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 31
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 32
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 33
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 34
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 35
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 36
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 37
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 38
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 39
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 40
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 41
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: tsel.me
+    udp: true
+  - name: sg1-temp.v2-ray.com 42
+    server: sg1-temp.v2-ray.com
+    port: 80
+    type: vmess
+    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
