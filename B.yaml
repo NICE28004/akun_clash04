@@ -181,8 +181,6 @@ proxy-groups:
     type: select
     proxies:
       - LOAD-BALANCE (T)
-      - T
-      - T2
       - ADS
   - name: T
     type: url-test
