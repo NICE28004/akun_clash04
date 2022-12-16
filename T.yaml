@@ -1,673 +1,385 @@
 proxies:
-  - name: sg1-temp.v2-ray.com
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 2
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 2
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 3
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 3
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 4
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 4
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 5
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 5
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 6
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 6
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 7
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 7
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 8
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 8
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 9
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 9
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 10
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 10
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 11
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 11
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 12
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 12
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 13
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 13
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 14
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 14
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 15
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 15
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 16
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 16
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 17
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 17
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 18
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 18
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 19
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 19
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 20
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 20
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 21
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 21
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 22
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 22
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 23
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 23
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
-  - name: sg1-temp.v2-ray.com 24
-    server: sg1-temp.v2-ray.com
+  - name: dynamic-sg2b.obfs.xyz 24
+    server: dynamic-sg2b.obfs.xyz
     port: 80
     type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
+    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me
+    servername: tsel.me/worryfree
     network: ws
     ws-opts:
       path: /worryfree
       headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 25
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 26
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 27
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 28
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 29
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 30
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 31
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 32
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 33
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 34
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 35
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 36
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 37
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 38
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 39
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 40
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 41
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
-    udp: true
-  - name: sg1-temp.v2-ray.com 42
-    server: sg1-temp.v2-ray.com
-    port: 80
-    type: vmess
-    uuid: d2a67cb0-77db-11ed-b537-205c6d5f5d78
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me
+        Host: tsel.me/worryfree
     udp: true
