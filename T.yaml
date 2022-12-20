@@ -1,9 +1,9 @@
 proxies:
-  - name: dynamic-sg2b.obfs.xyz
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
+  - name: gg
+    server: 103.83.159.76
+    port: 443
     type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
+    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
     alterId: 0
     cipher: auto
     tls: false
@@ -11,15 +11,15 @@ proxies:
     servername: tsel.me/worryfree
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /worryfree/TelkomO-globalssh
       headers:
         Host: tsel.me/worryfree
     udp: true
-  - name: dynamic-sg2b.obfs.xyz 2
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
+  - name: gg 2
+    server: 103.83.159.76
+    port: 443
     type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
+    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
     alterId: 0
     cipher: auto
     tls: false
@@ -27,15 +27,15 @@ proxies:
     servername: tsel.me/worryfree
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /worryfree/TelkomO-globalssh
       headers:
         Host: tsel.me/worryfree
     udp: true
-  - name: dynamic-sg2b.obfs.xyz 3
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
+  - name: gg 3
+    server: 103.83.159.76
+    port: 443
     type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
+    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
     alterId: 0
     cipher: auto
     tls: false
@@ -43,15 +43,15 @@ proxies:
     servername: tsel.me/worryfree
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /worryfree/TelkomO-globalssh
       headers:
         Host: tsel.me/worryfree
     udp: true
-  - name: dynamic-sg2b.obfs.xyz 4
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
+  - name: gg 4
+    server: 103.83.159.76
+    port: 443
     type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
+    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
     alterId: 0
     cipher: auto
     tls: false
@@ -59,15 +59,15 @@ proxies:
     servername: tsel.me/worryfree
     network: ws
     ws-opts:
-      path: /worryfree
+      path: /worryfree/TelkomO-globalssh
       headers:
         Host: tsel.me/worryfree
     udp: true
-  - name: dynamic-sg2b.obfs.xyz 5
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
+  - name: gg 5
+    server: 103.83.159.76
+    port: 443
     type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
+    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
     alterId: 0
     cipher: auto
     tls: false
@@ -75,311 +75,7 @@ proxies:
     servername: tsel.me/worryfree
     network: ws
     ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 6
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 7
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 8
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 9
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 10
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 11
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 12
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 13
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 14
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 15
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 16
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 17
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 18
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 19
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 20
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 21
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 22
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 23
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: dynamic-sg2b.obfs.xyz 24
-    server: dynamic-sg2b.obfs.xyz
-    port: 80
-    type: vmess
-    uuid: 7c7ca877-9e26-451b-95cc-509041562cd9
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree
+      path: /worryfree/TelkomO-globalssh
       headers:
         Host: tsel.me/worryfree
     udp: true
