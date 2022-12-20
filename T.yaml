@@ -79,3 +79,51 @@ proxies:
       headers:
         Host: tsel.me/worryfree
     udp: true
+  - name: Tikd-globalssh_vmess_ws_tls
+    server: 103.167.34.109
+    port: 8880
+    type: vmess
+    uuid: ce0fbb6c-8fa2-4631-9453-e1f7e4c581c4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me/worryfree
+    network: ws
+    ws-opts:
+      path: /worryfree/Tikd-globalssh
+      headers:
+        Host: tsel.me/worryfree
+    udp: true
+  - name: Tikd-globalssh_vmess_ws_tls 2
+    server: 103.167.34.109
+    port: 8880
+    type: vmess
+    uuid: ce0fbb6c-8fa2-4631-9453-e1f7e4c581c4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me/worryfree
+    network: ws
+    ws-opts:
+      path: /worryfree/Tikd-globalssh
+      headers:
+        Host: tsel.me/worryfree
+    udp: true
+  - name: Tikd-globalssh_vmess_ws_tls 3
+    server: 103.167.34.109
+    port: 8880
+    type: vmess
+    uuid: ce0fbb6c-8fa2-4631-9453-e1f7e4c581c4
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: tsel.me/worryfree
+    network: ws
+    ws-opts:
+      path: /worryfree/Tikd-globalssh
+      headers:
+        Host: tsel.me/worryfree
+    udp: true
