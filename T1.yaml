@@ -1,0 +1,99 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+ipv6: true
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+udp-relay=true
+experimental:
+  ignore-resolve-fail: true
+dns:
+  enable: true
+  ipv6: true
+  listen: 0.0.0.0:1053
+  enhanced-mode: redir-host
+  use-host: true
+  nameserver:
+    - 1.1.1.1
+  fallback:
+    - 1.0.0.1
+    - https://cloudflare-dns.com/dns-query
+proxy-groups:
+  - name: CLASH
+    type: select
+    proxies:
+      - SINGAPURA
+      - INDONESIA
+      - JEPANG-GFN
+      - DIRECT
+  - name: SINGAPURA
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    use:
+      - T
+  - name: INDONESIA 
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    use:
+      - T2
+  - name: JEPANG-GFN
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    use:
+      - T3
+proxy-providers:
+  T:
+    type: http
+    behavior: classical
+    path: ./T.yaml
+    url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/T.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 180
+      lazy: true
+      url: 'http://www.gstatic.com/generate_204'
+  T2:
+    type: http
+    behavior: classical
+    path: ./T2.yaml
+    url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/T2.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 180
+      lazy: true
+      url: 'http://www.gstatic.com/generate_204'
+  T3:
+    type: http
+    behavior: classical
+    path: ./T2.yaml
+    url: https://raw.githubusercontent.com/NICE28004/akun_clash04/main/T3.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      interval: 180
+      lazy: true
+      url: 'http://www.gstatic.com/generate_204'
+rules:
+- MATCH,CLASH
+tun:
+  enable: true
+  stack: system
+  auto-route: false
+  auto-detect-interface: false
+  dns-hijack:
+  - tcp://any:53
+tproxy-port: 7895
