@@ -1,0 +1,81 @@
+proxies:
+  - name: JP-T
+    server: 104.18.25.139
+    port: 80
+    type: vmess
+    uuid: 4bc83279-098c-4722-a6f2-9fc28093d010
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: jp1.securev2ray.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jp1.securev2ray.com
+    udp: true
+  - name: JP-T 2
+    server: 104.18.25.139
+    port: 80
+    type: vmess
+    uuid: 4bc83279-098c-4722-a6f2-9fc28093d010
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: jp1.securev2ray.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jp1.securev2ray.com
+    udp: true
+  - name: JP-T 3
+    server: 104.18.25.139
+    port: 80
+    type: vmess
+    uuid: 4bc83279-098c-4722-a6f2-9fc28093d010
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: jp1.securev2ray.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jp1.securev2ray.com
+    udp: true
+  - name: JP-T 4
+    server: 104.18.25.139
+    port: 80
+    type: vmess
+    uuid: 4bc83279-098c-4722-a6f2-9fc28093d010
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: jp1.securev2ray.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jp1.securev2ray.com
+    udp: true
+  - name: JP-T 5
+    server: 104.18.25.139
+    port: 80
+    type: vmess
+    uuid: 4bc83279-098c-4722-a6f2-9fc28093d010
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: jp1.securev2ray.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: jp1.securev2ray.com
+    udp: true
