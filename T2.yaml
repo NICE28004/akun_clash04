@@ -1,129 +1,81 @@
 proxies:
-  - name: gg
-    server: 103.83.159.76
-    port: 443
+  - name: id-herza.vmess.sbs WS
+    server: 104.26.5.192
+    port: 80
     type: vmess
-    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
+    uuid: 31879860-7e20-11ed-b037-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me/worryfree
+    servername: id-herza.vmess.sbs
     network: ws
     ws-opts:
-      path: /worryfree/TelkomO-globalssh
+      path: /fashssh
       headers:
-        Host: tsel.me/worryfree
+        Host: id-herza.vmess.sbs
     udp: true
-  - name: gg 2
-    server: 103.83.159.76
-    port: 443
+  - name: id-herza.vmess.sbs WS 2
+    server: 104.26.5.192
+    port: 80
     type: vmess
-    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
+    uuid: 31879860-7e20-11ed-b037-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me/worryfree
+    servername: id-herza.vmess.sbs
     network: ws
     ws-opts:
-      path: /worryfree/TelkomO-globalssh
+      path: /fashssh
       headers:
-        Host: tsel.me/worryfree
+        Host: id-herza.vmess.sbs
     udp: true
-  - name: gg 3
-    server: 103.83.159.76
-    port: 443
+  - name: id-herza.vmess.sbs WS 3
+    server: 104.26.5.192
+    port: 80
     type: vmess
-    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
+    uuid: 31879860-7e20-11ed-b037-205c6d5f5d78
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me/worryfree
+    servername: id-herza.vmess.sbs
     network: ws
     ws-opts:
-      path: /worryfree/TelkomO-globalssh
+      path: /fashssh
       headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: gg 4
-    server: 103.83.159.76
-    port: 443
-    type: vmess
-    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree/TelkomO-globalssh
-      headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: gg 5
-    server: 103.83.159.76
-    port: 443
-    type: vmess
-    uuid: 11e98661-b1f4-47ca-b711-dddc1baa6a1d
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree/TelkomO-globalssh
-      headers:
-        Host: tsel.me/worryfree
+        Host: id-herza.vmess.sbs
     udp: true
   - name: Tikd-globalssh_vmess_ws_tls
-    server: 103.167.34.109
-    port: 8880
+    server: 104.18.25.139
+    port: 80
     type: vmess
     uuid: ce0fbb6c-8fa2-4631-9453-e1f7e4c581c4
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me/worryfree
+    servername: vmess-ikd-id01.globalssh.xyz
     network: ws
     ws-opts:
-      path: /worryfree/Tikd-globalssh
+      path: /vmess-ws/Tikd-globalssh
       headers:
-        Host: tsel.me/worryfree
+        Host: vmess-ikd-id01.globalssh.xyz
     udp: true
   - name: Tikd-globalssh_vmess_ws_tls 2
-    server: 103.167.34.109
-    port: 8880
+    server: 104.18.25.139
+    port: 80
     type: vmess
     uuid: ce0fbb6c-8fa2-4631-9453-e1f7e4c581c4
     alterId: 0
     cipher: auto
     tls: false
     skip-cert-verify: true
-    servername: tsel.me/worryfree
+    servername: vmess-ikd-id01.globalssh.xyz
     network: ws
     ws-opts:
-      path: /worryfree/Tikd-globalssh
+      path: /vmess-ws/Tikd-globalssh
       headers:
-        Host: tsel.me/worryfree
-    udp: true
-  - name: Tikd-globalssh_vmess_ws_tls 3
-    server: 103.167.34.109
-    port: 8880
-    type: vmess
-    uuid: ce0fbb6c-8fa2-4631-9453-e1f7e4c581c4
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: tsel.me/worryfree
-    network: ws
-    ws-opts:
-      path: /worryfree/Tikd-globalssh
-      headers:
-        Host: tsel.me/worryfree
+        Host: vmess-ikd-id01.globalssh.xyz
     udp: true
